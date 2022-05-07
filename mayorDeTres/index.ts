@@ -12,13 +12,13 @@ btnComp.addEventListener("click", () => {
     console.log("Ingrese 3 numeros diferentes");
   } else {
     if (num1 > num2 && num1 > num3) {
-      console.log("El primer valor es mayor");
+      console.log("El numero " + num1 + " es el mayor");
     } else {
       if (num2 > num1 && num2 > num3) {
-        console.log("El segundo valor es mayor");
+        console.log("El numero " + num2 + " es el mayor");
       } else {
         if (num3 > num1 && num3 > num2) {
-          console.log("El tercer valor es mayor");
+          console.log("El numero " + num3 + " es el mayor");
         }
       }
     }
